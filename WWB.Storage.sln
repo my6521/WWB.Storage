@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31612.314
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WWB.Storage", "src\WWB.Storage\WWB.Storage.csproj", "{88734965-8BC1-49D0-81CD-8DF16AC2B7B4}"
 EndProject
@@ -20,8 +20,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{71B323EB-BCAE-446C-B876-95A6B0EE0880}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{9B2B0901-0F27-4F5F-ABF6-03F248FCB786}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.WebApi", "samples\Demo.WebApi\Demo.WebApi.csproj", "{42F4A79D-8D03-4380-BB9D-B777B2AEBAEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WebApi", "samples\Demo.WebApi\Demo.WebApi.csproj", "{42F4A79D-8D03-4380-BB9D-B777B2AEBAEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
