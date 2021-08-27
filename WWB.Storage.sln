@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WWB.Storage", "src\WWB.Storage\WWB.Storage.csproj", "{88734965-8BC1-49D0-81CD-8DF16AC2B7B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WWB.Storage.Local", "src\WWB.Storage.Local\WWB.Storage.Local.csproj", "{1CA04F64-ED24-488A-8047-301B9E1FF721}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WWB.Storage.Tencent", "src\WWB.Storage.Tencent\WWB.Storage.Tencent.csproj", "{9CCC432E-7CE5-4D30-9A1F-225676C45019}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WWB.Storage.Aliyun", "src\WWB.Storage.Aliyun\WWB.Storage.Aliyun.csproj", "{925D5958-CE26-42BB-A6F9-424AC7AF572B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B37B4BF-38FB-4D60-BE9A-8547764C1910}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0F88542E-4A72-457D-ADE6-0E3F0EAEDE1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WWB.Storage.Tests", "tests\WWB.Storage.Tests\WWB.Storage.Tests.csproj", "{D81E1EE4-3B57-4F72-B09C-FD22FB8D7927}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{71B323EB-BCAE-446C-B876-95A6B0EE0880}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{9B2B0901-0F27-4F5F-ABF6-03F248FCB786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.WebApi", "samples\Demo.WebApi\Demo.WebApi.csproj", "{42F4A79D-8D03-4380-BB9D-B777B2AEBAEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88734965-8BC1-49D0-81CD-8DF16AC2B7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88734965-8BC1-49D0-81CD-8DF16AC2B7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88734965-8BC1-49D0-81CD-8DF16AC2B7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88734965-8BC1-49D0-81CD-8DF16AC2B7B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CA04F64-ED24-488A-8047-301B9E1FF721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA04F64-ED24-488A-8047-301B9E1FF721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA04F64-ED24-488A-8047-301B9E1FF721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA04F64-ED24-488A-8047-301B9E1FF721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCC432E-7CE5-4D30-9A1F-225676C45019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCC432E-7CE5-4D30-9A1F-225676C45019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCC432E-7CE5-4D30-9A1F-225676C45019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCC432E-7CE5-4D30-9A1F-225676C45019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925D5958-CE26-42BB-A6F9-424AC7AF572B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925D5958-CE26-42BB-A6F9-424AC7AF572B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925D5958-CE26-42BB-A6F9-424AC7AF572B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925D5958-CE26-42BB-A6F9-424AC7AF572B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D81E1EE4-3B57-4F72-B09C-FD22FB8D7927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81E1EE4-3B57-4F72-B09C-FD22FB8D7927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81E1EE4-3B57-4F72-B09C-FD22FB8D7927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81E1EE4-3B57-4F72-B09C-FD22FB8D7927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F4A79D-8D03-4380-BB9D-B777B2AEBAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F4A79D-8D03-4380-BB9D-B777B2AEBAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F4A79D-8D03-4380-BB9D-B777B2AEBAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F4A79D-8D03-4380-BB9D-B777B2AEBAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88734965-8BC1-49D0-81CD-8DF16AC2B7B4} = {9B37B4BF-38FB-4D60-BE9A-8547764C1910}
+		{1CA04F64-ED24-488A-8047-301B9E1FF721} = {9B37B4BF-38FB-4D60-BE9A-8547764C1910}
+		{9CCC432E-7CE5-4D30-9A1F-225676C45019} = {9B37B4BF-38FB-4D60-BE9A-8547764C1910}
+		{925D5958-CE26-42BB-A6F9-424AC7AF572B} = {9B37B4BF-38FB-4D60-BE9A-8547764C1910}
+		{D81E1EE4-3B57-4F72-B09C-FD22FB8D7927} = {0F88542E-4A72-457D-ADE6-0E3F0EAEDE1D}
+		{42F4A79D-8D03-4380-BB9D-B777B2AEBAEA} = {71B323EB-BCAE-446C-B876-95A6B0EE0880}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43806F1B-D627-4875-83DA-966FE974222D}
+	EndGlobalSection
+EndGlobal
