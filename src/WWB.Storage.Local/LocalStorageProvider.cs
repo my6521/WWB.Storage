@@ -1,10 +1,10 @@
-﻿using WWB.Storage.Error;
-using WWB.Storage.Model;
-using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using WWB.Storage.Error;
+using WWB.Storage.Model;
 
 namespace WWB.Storage.Local
 {
@@ -26,7 +26,7 @@ namespace WWB.Storage.Local
             var env = serviceProvider.GetService<IHostingEnvironment>();
             if (string.IsNullOrEmpty(env.WebRootPath))
                 env.WebRootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
-            var rootPath = Path.Combine(env.WebRootPath, "OSS");
+            var rootPath = env.WebRootPath;
             if (!Directory.Exists(rootPath))
                 Directory.CreateDirectory(rootPath);
 

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	<PackageId>WWB.Storage.Local</PackageId>
-	<Version>1.0.0</Version>
+	<Version>1.0.1</Version>
 	<Authors>my6521</Authors>
 	<Description>NetCore3.1 对象储存扩展包，支持本地对象储存、阿里云OSS、腾讯云COS等常规操作。</Description>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
