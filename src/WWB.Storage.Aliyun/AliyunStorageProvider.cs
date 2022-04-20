@@ -1,9 +1,9 @@
 ﻿using Aliyun.OSS;
-using WWB.Storage.Error;
-using WWB.Storage.Model;
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using WWB.Storage.Error;
+using WWB.Storage.Model;
 
 namespace WWB.Storage.Aliyun
 {
@@ -44,10 +44,7 @@ namespace WWB.Storage.Aliyun
         {
             try
             {
-                await Task.Run(() =>
-                {
-                    _ossClient.DeleteObject(_cfg.BucketName, blobName);
-                });
+                await Task.Run(() => { _ossClient.DeleteObject(_cfg.BucketName, blobName); });
             }
             catch (Exception ex)
             {
@@ -59,10 +56,7 @@ namespace WWB.Storage.Aliyun
         {
             try
             {
-                await Task.Run(() =>
-                {
-                    _ossClient.DeleteObject(bucketName, blobName);
-                });
+                await Task.Run(() => { _ossClient.DeleteObject(bucketName, blobName); });
             }
             catch (Exception ex)
             {

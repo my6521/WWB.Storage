@@ -1,6 +1,7 @@
 ﻿using Aliyun.OSS.Model;
 using WWB.Storage.Error;
 using System;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace WWB.Storage.Aliyun
 {
@@ -24,6 +25,16 @@ namespace WWB.Storage.Aliyun
             throw new StorageException(
                 new StorageError { Code = code, Message = friendlyMessage ?? message, ProviderMessage = message },
                 new Exception($"阿里云存储错误,详细信息:RequestId:{requestId},traceId:{traceId},resource:{resource}"));
+        }
+
+        public static IServiceCollection AddAliyunSts(this IServiceCollection services, Action<StsClientConfig> setup)
+        {
+            var config = new StsClientConfig();
+            setup?.Invoke(config);
+            services.AddSingleton(config);
+            services.AddSingleton<IStsService, StsService>();
+
+            return services;
         }
     }
 }
